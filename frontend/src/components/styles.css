@@ -1,0 +1,42 @@
+.styledDiv{
+    background-color: lightblue;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+
+}
+.styledDiv1{
+    
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 50px;
+
+}
+
+.logoutbtn{
+    background-color: red /* Green */;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px
+
+}
+.logoutbtn1{
+    background-color: green /* Green */;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px
+
+}
+.table_grid{
+    font-family: 'Courier New', Courier, monospace;
+}

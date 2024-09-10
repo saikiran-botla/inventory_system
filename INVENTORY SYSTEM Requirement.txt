@@ -1,0 +1,28 @@
+INVENTORY SYSTEM
+Requirement
+User should be able to view inventory, log inventory, terminate his inventory.
+Design
+Backend
+User table to be registered with APTIV email only.
+	User 
+		-EMAIL
+		-PASSWORD
+		-PRIVILEDGE
+PRIVILEDGE goes from viewing to adding to inventory. Deleting inventory
+PRIVILEDGE
+	0 – VIEW inventory.
+	1 – ADD inventory.
+
+	INVENTORY:
+		-NAME
+		-HAVING USER
+		-ADDING USER
+		-DATE of acquiring 
+		-DESCRIPTION
+Frontend:
+Just one page for viewing data, additionally it should have filter and sort option by each column.
+An Add Inventory button to given to privileged Users who can add the inventory to a user.
+
+Server and Database
+Will maintain the database and deploy the site in Heroku only. 
+

@@ -1,0 +1,9 @@
+{
+    "backendport":5000,
+    "frontendport":3000,
+    "db_user":"postgres",
+    "host":"localhost",
+    "database":"inven_db",
+    "password":"postgres",
+    "port":5432
+}
